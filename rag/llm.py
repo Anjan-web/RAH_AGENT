@@ -17,7 +17,7 @@ def ask_llm(prompt: str) -> str:
     """
 
     response = client.chat.completions.create(
-        model="meta-llama/llama-prompt-guard-2-22m"
+        model="openai/gpt-oss-120b"
 ,
         messages=[
             {
